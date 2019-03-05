@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wind.mybatis.mapper.TicketMapper" >
+  <resultMap id="BaseResultMap" type="com.wind.mybatis.pojo.Ticket" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="DOUBLE" />
+    <result column="travelDays" property="traveldays" jdbcType="DOUBLE" />
+    <result column="travePeoples" property="travepeoples" jdbcType="INTEGER" />
+    <result column="inco" property="inco" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
